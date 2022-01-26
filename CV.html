@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CV Faucheur</title>
+    <meta charset="UTF-8">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    
+    <script src="Json_retriever.js"></script>
+    <link rel="stylesheet" href="stylingCV.css">
+
+
+
+</head>
+
+
+
+<body>
+    <nav id="navbarContainer" class="navbar navbar-expand-sm sticky-top">
+
+        <!-- Links -->
+        <div class="navbar-nav">
+            <img src="" id="logo" alt="">
+            <a class="navbar-brand" href="" id="homeLink">
+
+                <h1 id="titreNavbar"></h1>
+            </a>
+        </div>
+
+        <div class="navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="link1"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="link2"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="link3"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section>
+        <div class="jumbotron text-center" id="intro-CV">
+            <br>
+            <h1 id="intro"></h1>
+        </div>
+
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img id="imgInfo" src="" class="mx-auto d-block" alt="">
+                    <br>
+                    <div class="container">
+                        <div id="infoTitre"></div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="container infoTexte" >
+                        <p id="nom"><b></b></p>
+                        <p id="age"></p>
+                        <p id="ne"></p>
+                        <p id="residence"></p>
+                    </div>
+
+
+                </div>
+
+                <div class="col">
+                    <img id="imgForm" src="" class="mx-auto d-block" alt="">
+                    <br>
+                    <div class="container">
+                        <div id="titreForm"></div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="container infoTexte">
+                        <p id="lycee"></p>
+                        <p id="univ"></p>
+                        <p id="cuisine"></p>
+                        <p id="anger"></p>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <img id="imgExp" src="" class="mx-auto d-block" alt="">
+                    <br>
+                    <div class="container">
+                        <div id="titreExp"></div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="container infoTexte">
+                        <p id="avant"></p>
+                        <p id="esclave"></p>
+                        <p id="maintenant"></p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="jumbotron text-center" id="passionCuis">
+            <br>
+            <br>
+            <br>
+            <h1 id="passionTexte"></h1>
+        </div>
+
+        <div class="sectionReviews">
+            <h1 id="reviewTitle"></h1>
+            <div class="colonnes">
+                <div class="elemColonne">
+                    <div class="contenuElemColonne">
+                        <img id="imgBilly" src="" alt="">
+                        <div class="texteTemoins">
+                            <p id="texteBilly">
+                            </p>
+                            <div class="nomsTemoins" id="nomBilly">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="elemColonne">
+                    <div class="contenuElemColonne">
+                        <img id="imgMandy" src="" alt="">
+                        <div class="texteTemoins">
+                            <p id="texteMandy"> </p>
+                            <div class="nomsTemoins" id="nomMandy">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="elemColonne">
+                    <div class="contenuElemColonne">
+                        <img id="imgBoogey" src="" alt="">
+                        <div class="texteTemoins">
+                            <p id="texteBoogey">
+                            </p>
+                            <div class="nomsTemoins" id="nomBoogey">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="elemColonne">
+                    <div class="contenuElemColonne">
+                        <img id="imgLady" src="" alt="">
+                        <div class="texteTemoins">
+                            <p id="texteLady">
+                            </p>
+                            <div class="nomsTemoins" id="nomLady">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="" id="logo2" alt="">
+            </div>
+            <div class="col-sm-2">
+                <a href="" id="facebook" class="footerButton">
+                    <img src="" id="f_img" alt="">
+                </a>
+            </div>
+            <div class="col-sm-2">
+                <a href="" id="instagram" class="footerButton">
+                    <img src="" id="i_img" alt="">
+                </a>
+            </div>
+            <div class="col-sm-2">
+                <a href="" id="cartoonNetwork" class="footerButton">
+                    <img src="" id="cn_img" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

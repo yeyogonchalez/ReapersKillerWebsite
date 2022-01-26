@@ -1,0 +1,68 @@
+{
+    "intro":"Plus sur le commerçant d'outre-tombe:",
+
+    "imgInfo": "Images/Info.png" ,
+    "infoTitre": "INFO. PERSONNELLE",
+    "nom": "<b>NOM:</b> <br> - Faucheur",
+    "age": "<b>AGE:</b> <br> ???",
+    "ne": "<b>NÉ LE:</b> <br> ???",
+    "residence": "<b>RÉSIDENCE:</b> <br> - Chez Billy et Mandy",
+
+    "imgForm": "Images/mortarboard.png",
+    "titreForm": "FORMATION",
+    "lycee": "<b>ÉLÉMENTAIRE:</b> <br> - Lycée Judas",
+    "univ": "<b>SUPÉRIEUR:</b> <br> - Faculté Génerale d'Assassinat",
+    "cuisine": "<b>POST-BAC:</b> <br> - Cours de cuisine spécialisé en enfants gâtés",
+    "anger": "<b>BONUS:</b> <br> - Cours rémédiaux pour la colère accumulée (encore en cours)",
+
+    "imgExp": "Images/human-skull.png",
+    "titreExp": "EXPÉRIENCE",
+    "avant": "<b>???-2000:</b> <br> - Faucheur officiel de l'Enfer",
+    "esclave": "<b>2000- de nos jours:</b> <br> - esclave juré de Billy et Mandy",
+    "maintenant": "<b>MAINTENANT:</b> <br> - Marchand <b>WEB!</b>",
+
+    "bcpText": "Beaucoup plus qu'un homme.. (un peu moins en fait):", 
+    "passionTexte": "Passion pour le métier...",
+    "reviewTitle": "Et les gens le savent!",
+
+    "imgBilly": "Images/billy.png",
+    "texteBilly": "Même en apprenant comment compter, je ne pourrais pas dire le nombre exact de fois ou Faucheur m'a sauvé le cou HEEHEHE. Il prépare les meilleurs pancakes au monde et fait tout ce que JE veux quand JE veux! :P",
+    "nomBilly": "- Billy, co-maître de Faucheur.",
+
+    "imgMandy": "Images/mandy.png",
+    "texteMandy": "Cet inutile sac d'os appelé Faucheur sert quelquefois pour les labeurs de la maison. Par contre, ses talents avec la fauche terminent par être... utiles pour certaines tâches assez compliquées pour une fille de 12 ans.",
+    "nomMandy": "- Mandy, co-maître de Faucheur.",
+
+    "imgBoogey": "Images/boogey.png",
+    "texteBoogey": "Ah, Faucheur, mon vieux rival, que dire sur toi? Évidemment c'est moi le meilleur dans le métier de faire terreur, mais tu n'es pas si mal que ça avec les enfants huh? ",
+    "nomBoogey": "- Boogeyman, ancienne rivalité.",
+
+    "imgLady": "Images/ppg.jpg",
+    "texteLady": "En tant que jeune demoiselle squelettale, je trouve M. Faucheur très joli Uwu. Il fait vraiment peur! Ses talents dans la cuisine doivent être seulement supérés par ses aptitudes avec sa fauche.",
+    "nomLady": "- Sûrement pas Faucheur.",
+
+    "titreNavbar": "Chez Faucheur",
+    "logo": "Images/Logo.png",
+    "homeLink": "Home.html",
+
+    "link1": "Chez faucheur",
+    "link1href": "Home.html",
+
+    "link2": "Qui suis-je?",
+    "link2href": "CV.html",
+
+    "link3": "Me contacter",
+    "link3href": "Contact.html",
+
+    "instagram":"https://www.instagram.com/explore/tags/grimadventuresofbillyandmandy/?",
+    "i_img":"Images/Instagram_Icon.svg",
+    "facebook":"https://www.facebook.com/The-Grim-Adventures-of-Billy-and-Mandy-18042195830/",
+    "f_img":"Images/Facebook_Icon.svg",
+    "cartoonNetwork":"https://www.cartoonnetwork.ca/",
+    "cn_img":"Images/Cartoon_Network.png",
+
+    "logo_alt":"Tiny Reaper",
+    "i_alt":"Instagram",
+    "f_alt":"Facebook",
+    "cn_alt":"Cartoon Network"
+}

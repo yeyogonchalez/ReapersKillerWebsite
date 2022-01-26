@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Faucheur</title>
+    <meta charset="UTF-8">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body class="contact">
+    <nav id="navbarContainer" class="navbar navbar-expand-sm sticky-top">
+
+        <!-- Links -->
+
+        <div class="navbar-nav">
+            <img src="Images/Logo.png" id="logo" alt="Tiny Reaper">
+            <a class="navbar-brand" href="Home.html">
+                <h1 id="titreNavbar">Chez Faucheur</h1>
+            </a>
+        </div>
+
+        <div class="navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Home.html" id="link1">Chez Faucheur</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="CV.html" id="link2">Qui suis-je?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html" id="link3">Me contacter</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="contactForm">
+        <div class="bigContainer">
+            <form name="service" id="form" action="https://www.w3schools.com/action_page.php" method="POST">
+                <h2>
+                    Dit-moi ce que tu veux
+                </h2>
+
+                <p> Les questions indiquées avec un <i> * </i> sont requises</p>
+
+                <label for="name">Nom <i> * </i> </label>
+                <input type="text" name="name" id="name" required>
+
+
+                <label for="l-name">Prénom <i> * </i> </label>
+                <input type="text" name="l-name" id="l-name" required>
+
+
+                <label for="email">Email <i> * </i> </label>
+                <input type="email" name="email" id="email" required>
+
+                <br><br>
+
+                <label for="domain">Domaine <i> * </i> </label>
+                <select name="domain" id="domain" required>
+                    <option value="">Selectionner</option>
+                    <option value="Terre">Terre</option>
+                    <option value="Enfer">L'enfer</option>
+                    <option value="Autre planète">Autre planète</option>
+                    <option value="Autre domaine">Autre domaine</option>
+                </select>
+
+                <br><br>
+
+                <label>Travail (ou travaux) à faire</label>
+                <input type="checkbox" name="work" id="chef" value="chef"> Chef <br>
+                <input type="checkbox" name="work" id="hitman" value="hitman"> Hitman <br>
+                <input type="checkbox" name="work" id="adventurer" value="adventurer"> Adventurier <br>
+                <br><br>
+
+                <label for="description">Décrit ce que tu veux </label>
+                <textarea name="description" id="description"> </textarea>
+
+
+                <br><br>
+                <input type="checkbox" name="nonTechSupport" id="nonTechSupport" required>
+                <label for="nonTechSupport" class="checkboxers">Tu n'es ni Billy ni Mandy <i> * </i>
+                </label>
+
+                <br><br>
+
+                <input type="checkbox" name="notIgnorant" id="notIgnorant" required>
+                <label for="notIgnorant" class="checkboxers">Tu me connais <a href="CV.html">déjà</a>
+                    <i> * </i>
+                </label>
+                <br><br>
+
+                <label for="highTechCybersecurity">1+1= <i> * </i> </label>
+                <input type="text" name="highTechCybersecurity" id="highTechCybersecurity" required>
+
+                <br><br><br>
+                <button type="submit">Submit</button>
+
+
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="Images/Logo.png" alt="Tiny Reaper">
+            </div>
+            <div class="col-sm-2">
+                <a href="https://www.facebook.com/The-Grim-Adventures-of-Billy-and-Mandy-18042195830/"
+                    class="footerButton">
+                    <img src="Images/Facebook_Icon.svg" alt="Faecbook">
+                </a>
+            </div>
+            <div class="col-sm-2">
+                <a href="https://www.instagram.com/explore/tags/grimadventuresofbillyandmandy/?" class="footerButton">
+                    <img src="Images/Instagram_Icon.svg" alt="Instagram">
+                </a>
+            </div>
+            <div class="col-sm-2">
+                <a href="https://www.cartoonnetwork.ca/" class="footerButton">
+                    <img src="Images/Cartoon_Network.png" alt="Cartoon Network">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
